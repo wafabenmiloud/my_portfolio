@@ -52,10 +52,32 @@
 }
 @media screen and (max-width:600px) {
     .services__container{
+        display: grid;
         grid-template-columns: 1fr;
-        gap: 1.5rem;
+        gap: 1rem;
+        padding: 2rem;
     }
-    .service{
-        margin: 0.1rem 2rem 0.1rem 2rem;
+    .service__head{
+        background: var(--color-primary);
+        padding: 1.5rem;
+        border-radius: 0 0 2rem 2rem;
+        box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+    }
+    .service__head h3{
+        color: var(--color-bg);
+        font-size: 1rem;
+        text-align: center;
+    }
+    .service__list{
+        padding: 1.5rem;
+    }
+    .service__list li {
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .service__list p{
+        font-size: 0.9rem;
     }
 }

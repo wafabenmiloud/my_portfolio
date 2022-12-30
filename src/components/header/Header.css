@@ -33,11 +33,10 @@ header{
 }
 /*ME*/
 .me{
-    /*background: var(--color-primary);*/
-    width: 10rem;
+    width: 25%;
     height: 30rem;
     position: absolute;
-    left: calc(50% - 5rem);
+    left: calc(50% - 7rem);
     margin-top: 1rem;
     overflow: hidden;
     padding: 0.4rem;
@@ -56,6 +55,15 @@ header{
         padding-top: 3rem;
 
     }
+    .me{
+        width: 35%;
+        height: 30rem;
+        position: absolute;
+        left: calc(50% - 7rem);
+        margin-top: 5rem;
+        overflow: hidden;
+        padding: 0.4rem;
+    }
 
 }
 @media screen and (max-width:600px) {
@@ -67,8 +75,14 @@ header{
     .header__socials, .scroll__down{
         display: none;
     }
+  
     .me{
-        margin-top: 3rem;
-        padding: 0.8rem;
+        width: 38%;
+        height: 30rem;
+        position: absolute;
+        left: calc(50% - 4.5rem);
+        margin-top: 4rem;
+        overflow: hidden;
+        padding: 0.4rem;
     }
 }
