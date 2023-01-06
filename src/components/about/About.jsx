@@ -19,7 +19,7 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>1+ Years Working</small>
+              <small>2+ Years Working</small>
             </article>
             <article className='about__card'>
               <FaUsers className='about__icon'/>
@@ -33,9 +33,9 @@ const About = () => {
             </article>
           </div>
           <p>
-          I'm Wafa ben miloud , a hardworking adaptable person. I am motivated to put
-          into practice the knowledge I have obtained during my studies and to learn
-          from professionals.
+          I'm a web developer. I spend my whole day, practically every day, experimenting with HTML, CSS, and JavaScript; dabbling with Python.
+          Are you looking for a web developer to design and develop your website? If your answer is yes, then I welcome you and you are at the right place.
+
           </p>
           <a href="#contact" className='btn'> Let's Talk !</a>
         </div>

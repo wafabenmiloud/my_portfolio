@@ -23,8 +23,8 @@ const data = [
     id:3,
     image:Go,
     title:'Govact',
-    code:'',
-    demo:''
+    code:'https://github.com/wafabenmiloud/Govact',
+    demo:'https://govact.vercel.app/'
   },
 ]
 
