@@ -16,8 +16,8 @@ const data = [
     id:2,
     image:BrainGym,
     title:'Brain Gym',
-    code:'https://github.com/wafabenmiloud/BrainGym',
-    demo:'https://braingym-2ebbf.web.app/'
+    code:'https://github.com/wafabenmiloud/brainGym',
+    demo:'https://brain-gym.vercel.app/'
   },
   {
     id:3,
