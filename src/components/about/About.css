@@ -4,7 +4,7 @@
     gap: 15%;
 }
 .about__me{
-    width: 70%;
+    width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background: linear-gradient(
@@ -30,8 +30,8 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 1.5rem;
-    margin-top: 0.2rem;
-    margin-bottom: 0;
+  
+    margin: 1rem;
 }
 .about__card{
     background: var(--color--bg-variant);
@@ -40,6 +40,7 @@
     padding: 2rem;
     text-align: center;
     transition: var(--transition);
+
 }
 .about__card:hover{
     background: transparent;
@@ -60,27 +61,25 @@
 }
 .about__content p{
     margin-bottom: 1rem;
-    color: var(--color-light);
+    color: white;
 }
 @media screen and (max-width:1024px) {
-    .about__container{
-        grid-template-columns: 1fr;
-        gap: 0;
-    }
-    .about__me{
-        width: 35%;
-        margin: 6rem auto 4rem;
-    }
     .about__content p{
-        margin: 1rem 0 1.5rem;
+        margin: 1.5rem;
+        padding: 1rem;
     }
     .about__cards{
         margin-top: 3rem;
     }
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
+    .about__container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
     .about__me{
-        width: 40%;
+        width: 35%;
         margin: 3rem auto 3rem;
     }
     .about__cards{
@@ -92,7 +91,8 @@
         text-align: center;
     }
     .about__content p{
-        margin: 1.5rem 0;
+        margin: 1.5rem;
+        padding: 1rem;
     }
     .about__card{
         padding: 0.5rem;

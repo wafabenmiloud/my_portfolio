@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import ME from '../../assets/meee.jpg'
+import ME from '../../assets/codeee.jpg'
 import {FaAward, FaUsers, FaFolder} from 'react-icons/fa'
 
 const About = () => {
