@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import CV from '../../assets/CV_eng.pdf'
+import CV from '../../assets/Wafa BEN MILOUD.pdf'
 import ME from '../../assets/mee.jpg'
 import {BsLinkedin, BsGithub} from 'react-icons/bs'
 

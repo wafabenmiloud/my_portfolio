@@ -3,6 +3,7 @@ import "./Portfolio.css";
 import COT from "../../assets/cot.png";
 import BrainGym from "../../assets/brainGym.png";
 import Go from "../../assets/gov.png";
+import BLOG from "../../assets/blog.png";
 
 const data = [
   {
@@ -25,6 +26,13 @@ const data = [
     title: "Govact",
     code: "https://github.com/wafabenmiloud/Govact",
     demo: "https://govact.vercel.app/",
+  },
+  {
+    id: 4,
+    image: BLOG,
+    title: "Blog",
+    code: "https://github.com/wafabenmiloud/blogApp",
+    demo: "https://blog-app-sooty-theta.vercel.app/login",
   },
 ];
 
