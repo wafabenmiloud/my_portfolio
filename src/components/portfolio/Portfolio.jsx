@@ -32,7 +32,7 @@ const data = [
     image: BLOG,
     title: "Blog",
     code: "https://github.com/wafabenmiloud/blogApp",
-    demo: "https://blog-app-tawny-ten.vercel.app/login",
+    demo: "https://blog-app-tawny-ten.vercel.app",
   },
 ];
 
