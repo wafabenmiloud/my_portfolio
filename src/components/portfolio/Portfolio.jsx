@@ -35,13 +35,7 @@ const data = [
     code: "https://github.com/wafabenmiloud/blogApp",
     demo: "https://blog-app-tawny-ten.vercel.app",
   },
-  {
-    id: 5,
-    image: MedApp,
-    title: "Health Care",
-    code: "https://github.com/wafabenmiloud/medapp",
-    demo: "",
-  },
+ 
 ];
 
 const Portfolio = () => {
