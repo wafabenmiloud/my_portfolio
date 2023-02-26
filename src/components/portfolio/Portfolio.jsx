@@ -4,6 +4,7 @@ import COT from "../../assets/cot.png";
 import BrainGym from "../../assets/brainGym.png";
 import Go from "../../assets/gov.png";
 import BLOG from "../../assets/blog.png";
+import MedApp from "../../assets/medapp.png";
 
 const data = [
   {
@@ -33,6 +34,13 @@ const data = [
     title: "Blog",
     code: "https://github.com/wafabenmiloud/blogApp",
     demo: "https://blog-app-tawny-ten.vercel.app",
+  },
+  {
+    id: 5,
+    image: MedApp,
+    title: "Health Care",
+    code: "https://github.com/wafabenmiloud/medapp",
+    demo: "",
   },
 ];
 
