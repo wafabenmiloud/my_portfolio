@@ -40,7 +40,7 @@ const data = [
     video: false,
     title: "Blog",
     code: "https://github.com/wafabenmiloud/blogApp",
-    demo: "https://blog-app-tawny-ten.vercel.app",
+    demo: "https://main--strong-centaur-4d916e.netlify.app",
     skills: "HTML, CSS, React JS, Node JS, MongoDB",
   },
   {
