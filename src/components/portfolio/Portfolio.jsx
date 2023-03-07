@@ -48,7 +48,7 @@ const data = [
     image: MedApp,
     video: true,
     title: "Book your appointment now",
-    code: "https://github.com/wafabenmiloud/",
+    code: "https://github.com/wafabenmiloud/medapp",
     demo: "",
     skills: "Flutter, Node JS, MongoDB",
   },
