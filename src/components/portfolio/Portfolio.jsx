@@ -3,7 +3,7 @@ import "./Portfolio.css";
 import COT from "../../assets/cot.png";
 import BrainGym from "../../assets/brainGym.png";
 import Go from "../../assets/gov.png";
-import BLOG from "../../assets/blog.png";
+import BLOG from "../../assets/blogapp.mp4";
 import MedApp from "../../assets/medapp.mp4";
 
 const data = [
@@ -37,7 +37,7 @@ const data = [
   {
     id: 4,
     image: BLOG,
-    video: false,
+    video: true,
     title: "Blog",
     code: "https://github.com/wafabenmiloud/blogApp",
     demo: "https://main--strong-centaur-4d916e.netlify.app",
