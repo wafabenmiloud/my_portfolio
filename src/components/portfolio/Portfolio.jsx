@@ -31,7 +31,7 @@ const data = [
     title: "Govact",
     code: "https://github.com/wafabenmiloud/Govact",
     demo: "https://govact.vercel.app/",
-    skills: "HTML, CSS, React JS",
+    skills: "HTML, CSS, React JS, Node JS, MongoDB",
     video: false,
   },
   {
