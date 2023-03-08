@@ -40,7 +40,7 @@ const data = [
     video: false,
     title: "Blog",
     code: "https://github.com/wafabenmiloud/blogApp",
-    demo: "https://blog-app-tawny-ten.vercel.app",
+    demo: "https://main--strong-centaur-4d916e.netlify.app",
     skills: "HTML, CSS, React JS, Node JS, MongoDB",
   },
   {
@@ -48,7 +48,7 @@ const data = [
     image: MedApp,
     video: true,
     title: "Book your appointment now",
-    code: "https://github.com/wafabenmiloud/",
+    code: "https://github.com/wafabenmiloud/medapp",
     demo: "",
     skills: "Flutter, Node JS, MongoDB",
   },
