@@ -5,6 +5,7 @@ import BrainGym from "../../assets/brainGym.png";
 import Go from "../../assets/gov.png";
 import BLOG from "../../assets/blogapp.mp4";
 import MedApp from "../../assets/medapp.mp4";
+import quiz from "../../assets/quiz.png";
 
 const data = [
   {
@@ -52,8 +53,16 @@ const data = [
     demo: "",
     skills: "Flutter, Node JS, MongoDB",
   },
+  {
+    id: 6,
+    image: quiz,
+    video: false,
+    title: "Warmup with a programming QUIZ",
+    code: "https://github.com/wafabenmiloud/quiz",
+    demo: "https://quiz-three-ruby.vercel.app",
+    skills: "HTML, CSS, React JS, Node JS, MongoDB",
+  },
 ];
-
 const Portfolio = () => {
   return (
     <section id="portfolio">
