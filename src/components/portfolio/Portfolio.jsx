@@ -57,7 +57,7 @@ const data = [
     id: 6,
     image: quiz,
     video: false,
-    title: "Warmup with a programming QUIZ",
+    title: "MERN Stack QUIZ",
     code: "https://github.com/wafabenmiloud/quiz",
     demo: "https://quiz-three-ruby.vercel.app",
     skills: "HTML, CSS, React JS, Node JS, MongoDB",
