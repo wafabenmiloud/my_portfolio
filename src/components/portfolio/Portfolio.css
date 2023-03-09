@@ -24,7 +24,7 @@
 }
 .portfolio__container .card .face.face1{
     position: relative;
-    background: #333;
+    background: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
