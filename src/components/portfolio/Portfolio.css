@@ -71,6 +71,19 @@
     border: 0;
     background: #FFC300;
 }
+.portfolio__container .card .desc__content{
+    width: 100%;
+    padding: 0 50px;
+    color: #e4e6e7;
+    font-style: 2rem;
+    line-height: 24px;
+    text-align: justify;
+    @media screen and (max-width: 767px) {
+        .portfolio__container .card .desc__content{
+            padding:.3rem
+        }
+   
+}}
 .portfolio__container .card .tags{
     display: flex;
     justify-content: space-around;
