@@ -11,10 +11,10 @@ const Nav = () => {
   return (
     <nav>
       <a href="#" className={activeNav==='#' ? 'active' : ''} onClick={()=>{setActiveNav('#')}}><AiFillHome/></a>
-      <a href="#about" className={activeNav==='#about' ? 'active' : ''} onClick={()=>{setActiveNav('#about')}}><BiUserPin/></a>
-      <a href="#experience" className={activeNav==='#experience' ? 'active' : ''} onClick={()=>{setActiveNav('#experience')}}><FaAward/></a>
-      <a href="#services" className={activeNav==='#services' ? 'active' : ''} onClick={()=>{setActiveNav('#services')}}><RiServiceLine/></a>
       <a href="#portfolio" className={activeNav==='#portfolio' ? 'active' : ''} onClick={()=>{setActiveNav('#portfolio')}}><GiBookshelf/></a>
+      <a href="#experience" className={activeNav==='#experience' ? 'active' : ''} onClick={()=>{setActiveNav('#experience')}}><FaAward/></a>
+      <a href="#about" className={activeNav==='#about' ? 'active' : ''} onClick={()=>{setActiveNav('#about')}}><BiUserPin/></a>
+      {/* <a href="#services" className={activeNav==='#services' ? 'active' : ''} onClick={()=>{setActiveNav('#services')}}><RiServiceLine/></a> */}
       <a href="#contact" className={activeNav==='#contact' ? 'active' : ''} onClick={()=>{setActiveNav('#contact')}}><AiFillMessage/></a>
 
     </nav>

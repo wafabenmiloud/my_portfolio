@@ -1,75 +1,94 @@
-.span{
-    text-align: center;
-    color: #FFC300;
-    
-}
-.portfolio__container{
+.portfolio__container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.8rem;
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2rem;
+    place-items: center;
+    column-gap: 2rem;
+    margin: 2rem;
+  }
+  @media screen and (max-width:1024px) {
+    .portfolio__container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+    }
+  @media screen and (max-width: 767px) {
+    .portfolio__container {
+      display: flex;
+      flex-direction: column;
+      padding: 2rem;
+      padding-bottom: 0;
+    }
+  
+  }
+.portfolio__container .card{
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+    text-align: center;
+    width: 100%;
     margin: 2rem;
 }
-.portfolio__container .card{
-    padding: 1rem;
-    border-radius:2rem ;
-    border: 1px solid transparent;
-    transition: var(--transparent);
+@media screen and (max-width: 767px) {
+    .portfolio__container .card{
+      width: 100%;
+    }
+  }
+.portfolio__container .card .img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    overflow: hidden;
 }
-.portfolio__container .card .face{
+.portfolio__container .card .img img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.portfolio__container .card .img video{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.portfolio__container .card .title__content{
+    text-align: center;
+    z-index: 20;
     width: 100%;
-    height: 100%;
-    transition: 0.5s;
 }
-.portfolio__container .card .face.face1{
-    position: relative;
-    background: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-    transform: translateY(100px);
-}
-.portfolio__container .card:hover .face.face1{
-    background: var(--color-bg-variant);
-    transform: translateY(0);
-}
-.portfolio__container .card .face.face1 .content{
-    opacity: 0.2;
-    transition: 0.5s;
-}
-.portfolio__container .card:hover .face.face1 .content{
-    opacity: 1;
-}
-.portfolio__container .card .face.face1 .content img{max-width: 100%;}
-.portfolio__container .card .face.face1 .content h3{
-    margin: 1rem;
-    padding: 0;
-    color: white;
-    text-align: center;
-    font-size: 1.5em;
-}
-.portfolio__container .card .face.face2{
-    background: var(--color-bg-variant);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.portfolio__container .card .title__content h3{
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #9cc9e3;
     padding: 1rem;
-    box-sizing: border-box;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
-    transform: translateY(-100px);
+    font-size: 1.5rem;
 }
-.portfolio__container .card:hover .face.face2{
-    transform: translateY(0);
+.portfolio__container .card .title__content hr{
+    width: 50px;
+    height: 3px;
+    margin: 10px auto;
+    border: 0;
+    background: #FFC300;
 }
-.portfolio__container .card .face.face2 .content{
+.portfolio__container .card .tags{
     display: flex;
-    gap: 1rem;
-    margin-bottom:1rem ;
-    text-align: center;
+    justify-content: space-around;
+    padding: 1rem;
 }
-.portfolio__container .card .face.face2 .content a{
+.portfolio__container .card .tags .tag{
+    color: #d8bfbf;
+    font-size: 1rem;
+}
+.portfolio__container .card .content{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+.portfolio__container .card .content .btn{
     width:max-content;
     display: inline-block;
     color: var(--color-primary);
@@ -79,19 +98,7 @@
     border: 1px solid var(--color-primary);
     transition: var(--transition);
 }
-.portfolio__container .card .face.face2 .content a:hover{
+.portfolio__container .card .content .btn:hover{
     background: var(--color-white);
     color: var(--color-bg);
 }
-
-
-@media screen and (max-width:1024px) {
-    .portfolio__container{
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-@media screen and (max-width:600px) {
-    .portfolio__container{
-        grid-template-columns: 1fr;
-    }
-} 

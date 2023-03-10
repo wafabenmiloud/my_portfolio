@@ -12,10 +12,11 @@ function App() {
     <>
     <Header/>
     <Nav/>
+        <Portfolio/>
+        <Experience/>
+
     <About/>
-    <Experience/>
-    <Services/>
-    <Portfolio/>
+    {/* <Services/> */}
     <Contact/>
     <Footer/>
     </>
