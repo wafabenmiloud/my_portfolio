@@ -1,18 +1,12 @@
 .portfolio__container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     padding: 2rem;
     place-items: center;
     column-gap: 2rem;
     margin: 2rem;
   }
-  @media screen and (max-width:1024px) {
-    .portfolio__container{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
 
-    }
-    }
   @media screen and (max-width: 767px) {
     .portfolio__container {
       display: flex;
