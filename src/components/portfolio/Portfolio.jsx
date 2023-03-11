@@ -49,7 +49,7 @@ const data = [
     description:
       "CodeQuery is a platform where programmers from all around the world can come together to share and solve programming challenges, ask and answer questions, and collaborate on projects. Our platform is designed to be a one-stop-shop for programmers of all levels, from beginners to experts, to connect with one another and learn new skills. Whether you're looking to improve your coding abilities, find solutions to difficult problems, or simply connect with like-minded individuals, CodeQuery has everything you need to take your programming skills to the next level. So come join us and become a part of the CodeQuery community today!",
     code: "https://github.com/wafabenmiloud/blogApp",
-    demo: "https://main--strong-centaur-4d916e.netlify.app",
+    demo: "https://blog-app-nu-seven.vercel.app/",
     skills: ["HTML", "CSS", "React JS", "Node JS", "MongoDB"],
   },
   {
