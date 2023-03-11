@@ -16,7 +16,7 @@ const data = [
     description:
       "Welcome to MERNQuiz, the ultimate platform for testing your knowledge and skills in the MERN stack. Our quizzes cover everything from MongoDB, Express, React, and Node.js to help you improve your understanding of this popular web development technology stack. With MERNQuiz, you can test yourself with a range of questions and scenarios to see how well you know the MERN stack. Our platform is perfect for beginners and experts alike who want to test their knowledge and learn new things about this technology stack. Join our community of learners and become a MERN stack pro today!",
     code: "https://github.com/wafabenmiloud/quiz",
-    demo: "https://quiz-three-ruby.vercel.app",
+    demo: "https://quiz-p9dl.onrender.com/",
     skills: ["HTML", "CSS", "React JS", "Node JS", "MongoDB"],
   },
   {
@@ -37,7 +37,7 @@ const data = [
     description:
       "Hammam Lif Connect is a community-driven platform that aims to connect the residents of Hammam Lif with their local municipality. Our mission is to provide a space where residents can voice their concerns, ideas, and feedback about the town, and work together with the municipality to create positive change. Whether you're a long-time resident or a newcomer to the area, Hammam Lif Connect welcomes everyone to join the conversation and help shape the future of our town.",
     code: "https://github.com/wafabenmiloud/Govact",
-    demo: "https://govact.vercel.app/",
+    demo: "",
     skills: ["HTML", "CSS", "React JS", "Node JS", "MongoDB"],
     video: false,
   },
@@ -49,7 +49,7 @@ const data = [
     description:
       "CodeQuery is a platform where programmers from all around the world can come together to share and solve programming challenges, ask and answer questions, and collaborate on projects. Our platform is designed to be a one-stop-shop for programmers of all levels, from beginners to experts, to connect with one another and learn new skills. Whether you're looking to improve your coding abilities, find solutions to difficult problems, or simply connect with like-minded individuals, CodeQuery has everything you need to take your programming skills to the next level. So come join us and become a part of the CodeQuery community today!",
     code: "https://github.com/wafabenmiloud/blogApp",
-    demo: "https://blog-app-nu-seven.vercel.app/",
+    demo: "https://blog-xj3p.onrender.com/",
     skills: ["HTML", "CSS", "React JS", "Node JS", "MongoDB"],
   },
   {
