@@ -37,7 +37,7 @@ const data = [
     description:
       "Hammam Lif Connect is a community-driven platform that aims to connect the residents of Hammam Lif with their local municipality. Our mission is to provide a space where residents can voice their concerns, ideas, and feedback about the town, and work together with the municipality to create positive change. Whether you're a long-time resident or a newcomer to the area, Hammam Lif Connect welcomes everyone to join the conversation and help shape the future of our town.",
     code: "https://github.com/wafabenmiloud/Govact",
-    demo: "",
+    demo: "https://govact.onrender.com/",
     skills: ["HTML", "CSS", "React JS", "Node JS", "MongoDB"],
     video: false,
   },
